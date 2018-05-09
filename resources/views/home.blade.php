@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    
+                    <a href="{{url('kedua')}}"><button type="button" class="btn btn-primary"> Primary</button></a>
                 </div>
             </div>
         </div>
