@@ -33,6 +33,14 @@
     <link href="css/animate.min.css" rel="stylesheet">
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style type="text/css">
+      @media only screen and (max-width: 400px) {
+        body{
+          width: 100%;
+        }
+          
+    }
+    </style>
 
   </head>
 
@@ -210,8 +218,13 @@
               <p class="text-muted">NEVER COMPROMISE TO MAXIMISE YOUR LIFE!</p>
             </div>
           </div>
+
+          
     </section>
 
+    <div id="app">
+      <form-kredit></form-kredit>
+    </div>
     <!-- About -->
     <section id="about">
       <div class="container">
@@ -279,11 +292,7 @@
       </div>
     </section>
 
-    <div id="app">
-      
-      <form-kredit></form-kredit>
-      
-    </div>
+   
 
     <!-- Team -->
    <!--  <section class="bg-light" id="team">
@@ -543,7 +552,7 @@ lebih sporty dan aerodinamis, sehingga Anda lebih menikmati kehidupan berkendara
                   <h2 class="text-uppercase">Datsun Go+</h2>
                   <p class="item-intro text-muted">FOR FAMILY TOGETHERNESS & HAPPINESS</p>
                   <img class="img-fluid d-block mx-auto" src="img/datsun7.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Inilah All New Datsun GO+, mobil keluarga yang memastikan seluruh anggota keluarga Anda menikmati setiap detik dari perjalanan.</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Explore</li>
@@ -577,7 +586,7 @@ lebih sporty dan aerodinamis, sehingga Anda lebih menikmati kehidupan berkendara
                   <h2 class="text-uppercase">Datsun Cross</h2>
                   <p class="item-intro text-muted">NEVER COMPROMISE TO MAXIMISE YOUR LIFE!</p>
                   <img class="img-fluid d-block mx-auto" src="img/datsun9.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Jiwa penantang sejati takkan pernah mau berkompromi dalam mencapai tujuan. Jika Anda memiliki semangat yang sama, All New DATSUN CROSS adalah apa yang Anda cari. Dengan desain sporty dan fitur responsif, yang menjadikan Anda lebih maksimal untuk menantang segala rintangan di jalanan perkotaan. All New DATSUN CROSS. Be a Life Challenger.</p>
                   <ul class="list-inline">
                     <li>Date: January 2017</li>
                     <li>Client: Finish</li>

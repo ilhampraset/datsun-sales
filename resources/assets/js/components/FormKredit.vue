@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="row">
+		<div class="row form-mobile">
             <div class="col-md-6 col-sm-6 col-xs-12 ">
               
                <div class="form-group">
@@ -62,7 +62,7 @@
 		  		</div>
 
 		  		<div class="form-group">
-			    	<label class="control-label col-sm-5">Down Paymen(DP) :</label>
+			    	<label class="control-label col-sm-12 col-xs-12">Down Paymen(DP) :</label>
 			    	<div class="col-sm-12 col-md-12 col-xs-12 ">
 					     <money v-model="dp"
 				         v-bind="money"
@@ -126,17 +126,28 @@
 				],
 				this.variants = [
 
-					{'nama' : 'ALL NEW DATSUN GO D - MT', 'value' : 1, 'model_id' : 1 },
-					{'nama' : 'ALL NEW DATSUN GO D - AT', 'value' : 2, 'model_id' : 1 },
-					{'nama' : 'ALL NEW DATSUN GO+ D - AT', 'value' : 3, 'model_id' : 2 },
-					{'nama' : 'ALL NEW DATSUN Cross ', 'value' : 4, 'model_id' : 3 }
+					{'nama' : 'ALL NEW DATSUN GO T - MT', 'value' : 1, 'model_id' : 1 },
+					{'nama' : 'ALL NEW DATSUN GO T Option - MT', 'value' : 2, 'model_id' : 1 },
+					{'nama' : 'ALL NEW DATSUN GO T Active - MT', 'value' : 3, 'model_id' : 1 },
+					{'nama' : 'ALL NEW DATSUN GO T Ultimate - MT', 'value' : 4, 'model_id' : 1 },
+					{'nama' : 'ALL NEW DATSUN GO+ D - MT', 'value' : 5, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ A - MT', 'value' : 6, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ A Option - MT', 'value' : 7, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ T - MT', 'value' : 8, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ T Option - MT', 'value' : 9, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ T Style - MT', 'value' : 10, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN GO+ T Ultimate - MT', 'value' : 11, 'model_id' : 2 },
+					{'nama' : 'ALL NEW DATSUN Cross MT ', 'value' : 12, 'model_id' : 3 },
+					{'nama' : 'ALL NEW DATSUN Cross CVT ', 'value' : 13, 'model_id' : 3 }
 				],
 				this.harga = [
 
-					{'nilai' : '102990000', 'variant_id' : 1},
-					{'nilai' : '120990000', 'variant_id' : 2},
-					{'nilai' : '140990000', 'variant_id' : 3},
-					{'nilai' : '180990000', 'variant_id' : 4}
+					{'nilai' : '115050000', 'variant_id' : 1},
+					{'nilai' : '115550000', 'variant_id' : 2},
+					{'nilai' : '120800000', 'variant_id' : 3},
+					{'nilai' : '127730000', 'variant_id' : 4},
+					{'nilai' : '105350000', 'variant_id' : 5},
+					{'nilai' : '173990000', 'variant_id' : 6}
 				],
 				this.tenor = [
 
@@ -201,5 +212,27 @@
 
 		text-align: right;
 	 }
+
+	.form-mobile {
+
+		margin-right: 80px;
+		margin-left: 80px;
+	 	
+	}
+	@media only screen and (max-width: 600px) {
+    		.form-mobile{
+    			margin-right: 0px;
+				margin-left: 0px;
+	    		}
+       		
+		}
+
+	@media only screen and (max-width: 1200px) {
+		.form-mobile{
+			margin-right: 0px;
+			margin-left: 0px;
+    		}
+   		
+	}
 	
 </style>
